@@ -2,8 +2,7 @@
 
 ### Predicting Cryptocurrency Trends through Unsupervised Learning
 
-![Interactive Dashboard](path/to/your/image.png)
-
+![original_elbowcurve_optimized_elbowcurve_pca](images/original_elbowcurve_optimized_elbowcurve_pca.png)
 #### Contents
 
 1. [Overview](#overview)
@@ -43,7 +42,7 @@ ii. **Data Preprocessing:**
    - Create a DataFrame with scaled data, setting "coin_id" as the index.
 
 iii. **Cluster Analysis - Original Data:**
-   - Apply the elbow method to find the optimal number of clusters (k).
+   - Apply the elbow method to find optimal clusters (k).
    - Cluster cryptocurrencies using K-Means with the best k value.
    - Visualize the clusters using an interactive scatter plot with hvPlot.
 
@@ -89,7 +88,7 @@ Parts of our code were adapted from the documentation of the libraries used, suc
 ---
 ## 8. License
 
-This project is open-source and is made available under the terms of the MIT License. The MIT License is a permissive open-source license that allows you to use, modify, and distribute this software for your purposes. For the full details of the MIT License, please refer to [MIT License](https://choosealicense.com/licenses/mit/).
+This project is open-source and is made available under the terms of the MIT License. The MIT License is a permissive open-source license allowing you to use, modify, and distribute this software. For the full details of the MIT License, please refer to [MIT License](https://choosealicense.com/licenses/mit/).
 
 ---
 
